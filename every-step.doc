@@ -1,0 +1,984 @@
+Checking Process :1 burstTime= 25 && process :2 burstTime= 27
+And now we are in the ELSE IF block where Process :1 burstTime= 25 will work
+
+Process: 1 && BurstTime: 15 && WaitingTime: 0
+Process: 2 && BurstTime: 27 && WaitingTime: 10
+Process: 3 && BurstTime: 82 && WaitingTime: 10
+Process: 4 && BurstTime: 78 && WaitingTime: 10
+Process: 5 && BurstTime: 10 && WaitingTime: 10
+Process: 6 && BurstTime: 35 && WaitingTime: 10
+
+
+Checking Process :1 burstTime= 15 && process :3 burstTime= 82
+And now we are in the ELSE IF block where Process :1 burstTime= 15 will work
+
+Process: 1 && BurstTime: 5 && WaitingTime: 0
+Process: 2 && BurstTime: 27 && WaitingTime: 20
+Process: 3 && BurstTime: 82 && WaitingTime: 20
+Process: 4 && BurstTime: 78 && WaitingTime: 20
+Process: 5 && BurstTime: 10 && WaitingTime: 20
+Process: 6 && BurstTime: 35 && WaitingTime: 20
+
+
+Checking Process :1 burstTime= 5 && process :4 burstTime= 78
+And now we are in the ELSE IF block where Process :1 burstTime= 5 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 27 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 25
+Process: 4 && BurstTime: 78 && WaitingTime: 25
+Process: 5 && BurstTime: 10 && WaitingTime: 25
+Process: 6 && BurstTime: 35 && WaitingTime: 25
+
+
+Checking Process :1 burstTime= 0 && process :5 burstTime= 10
+And now we are in the ELSE IF block where Process :1 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 27 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 25
+Process: 4 && BurstTime: 78 && WaitingTime: 25
+Process: 5 && BurstTime: 10 && WaitingTime: 25
+Process: 6 && BurstTime: 35 && WaitingTime: 25
+
+
+Checking Process :1 burstTime= 0 && process :6 burstTime= 35
+And now we are in the ELSE IF block where Process :1 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 27 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 25
+Process: 4 && BurstTime: 78 && WaitingTime: 25
+Process: 5 && BurstTime: 10 && WaitingTime: 25
+Process: 6 && BurstTime: 35 && WaitingTime: 25
+
+
+Checking Process :2 burstTime= 27 && process :3 burstTime= 82
+And now we are in the ELSE IF block where Process :2 burstTime= 27 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 17 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 35
+Process: 4 && BurstTime: 78 && WaitingTime: 35
+Process: 5 && BurstTime: 10 && WaitingTime: 35
+Process: 6 && BurstTime: 35 && WaitingTime: 35
+
+
+Checking Process :2 burstTime= 17 && process :4 burstTime= 78
+And now we are in the ELSE IF block where Process :2 burstTime= 17 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 7 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 45
+Process: 4 && BurstTime: 78 && WaitingTime: 45
+Process: 5 && BurstTime: 10 && WaitingTime: 45
+Process: 6 && BurstTime: 35 && WaitingTime: 45
+
+
+Checking Process :2 burstTime= 7 && process :5 burstTime= 10
+And now we are in the ELSE IF block where Process :2 burstTime= 7 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 52
+Process: 4 && BurstTime: 78 && WaitingTime: 52
+Process: 5 && BurstTime: 10 && WaitingTime: 52
+Process: 6 && BurstTime: 35 && WaitingTime: 52
+
+
+Checking Process :2 burstTime= 0 && process :6 burstTime= 35
+And now we are in the ELSE IF block where Process :2 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 52
+Process: 4 && BurstTime: 78 && WaitingTime: 52
+Process: 5 && BurstTime: 10 && WaitingTime: 52
+Process: 6 && BurstTime: 35 && WaitingTime: 52
+
+
+Checking Process :2 burstTime= 0 && process :1 burstTime= 0
+And now we are in the IF block where Process :1 burstTime= 0
+
+Checking Process :3 burstTime= 82 && process :4 burstTime= 78
+And now we are in the LAST ELSE block where Process :4 burstTime= 78 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 62
+Process: 4 && BurstTime: 68 && WaitingTime: 52
+Process: 5 && BurstTime: 10 && WaitingTime: 62
+Process: 6 && BurstTime: 35 && WaitingTime: 62
+
+
+Checking Process :4 burstTime= 68 && process :5 burstTime= 10
+And now we are in the LAST ELSE block where Process :5 burstTime= 10 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 72
+Process: 4 && BurstTime: 68 && WaitingTime: 62
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 35 && WaitingTime: 72
+
+
+Checking Process :5 burstTime= 0 && process :6 burstTime= 35
+And now we are in the ELSE IF block where Process :5 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 72
+Process: 4 && BurstTime: 68 && WaitingTime: 62
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 35 && WaitingTime: 72
+
+
+Checking Process :5 burstTime= 0 && process :1 burstTime= 0
+And now we are in the IF block where Process :1 burstTime= 0
+
+Checking Process :5 burstTime= 0 && process :2 burstTime= 0
+And now we are in the IF block where Process :2 burstTime= 0
+
+Checking Process :5 burstTime= 0 && process :3 burstTime= 82
+And now we are in the ELSE IF block where Process :5 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 72
+Process: 4 && BurstTime: 68 && WaitingTime: 62
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 35 && WaitingTime: 72
+
+
+Checking Process :5 burstTime= 0 && process :4 burstTime= 68
+And now we are in the ELSE IF block where Process :5 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 72
+Process: 4 && BurstTime: 68 && WaitingTime: 62
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 35 && WaitingTime: 72
+
+
+Checking Process :6 burstTime= 35 && process :1 burstTime= 0
+And now we are in the IF block where Process :1 burstTime= 0
+
+Checking Process :6 burstTime= 35 && process :2 burstTime= 0
+And now we are in the IF block where Process :2 burstTime= 0
+
+Checking Process :6 burstTime= 35 && process :3 burstTime= 82
+And now we are in the ELSE IF block where Process :6 burstTime= 35 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 82
+Process: 4 && BurstTime: 68 && WaitingTime: 72
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 25 && WaitingTime: 72
+
+
+Checking Process :6 burstTime= 25 && process :4 burstTime= 68
+And now we are in the ELSE IF block where Process :6 burstTime= 25 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 92
+Process: 4 && BurstTime: 68 && WaitingTime: 82
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 15 && WaitingTime: 72
+
+
+Checking Process :6 burstTime= 15 && process :5 burstTime= 0
+And now we are in the IF block where Process :5 burstTime= 0
+
+Checking Process :1 burstTime= 0 && process :2 burstTime= 0
+And now we are in the IF block where Process :2 burstTime= 0
+
+Checking Process :1 burstTime= 0 && process :3 burstTime= 82
+And now we are in the ELSE IF block where Process :1 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 92
+Process: 4 && BurstTime: 68 && WaitingTime: 82
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 15 && WaitingTime: 72
+
+
+Checking Process :1 burstTime= 0 && process :4 burstTime= 68
+And now we are in the ELSE IF block where Process :1 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 92
+Process: 4 && BurstTime: 68 && WaitingTime: 82
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 15 && WaitingTime: 72
+
+
+Checking Process :1 burstTime= 0 && process :5 burstTime= 0
+And now we are in the IF block where Process :5 burstTime= 0
+
+Checking Process :1 burstTime= 0 && process :6 burstTime= 15
+And now we are in the ELSE IF block where Process :1 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 92
+Process: 4 && BurstTime: 68 && WaitingTime: 82
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 15 && WaitingTime: 72
+
+
+Checking Process :2 burstTime= 0 && process :3 burstTime= 82
+And now we are in the ELSE IF block where Process :2 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 92
+Process: 4 && BurstTime: 68 && WaitingTime: 82
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 15 && WaitingTime: 72
+
+
+Checking Process :2 burstTime= 0 && process :4 burstTime= 68
+And now we are in the ELSE IF block where Process :2 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 92
+Process: 4 && BurstTime: 68 && WaitingTime: 82
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 15 && WaitingTime: 72
+
+
+Checking Process :2 burstTime= 0 && process :5 burstTime= 0
+And now we are in the IF block where Process :5 burstTime= 0
+
+Checking Process :2 burstTime= 0 && process :6 burstTime= 15
+And now we are in the ELSE IF block where Process :2 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 92
+Process: 4 && BurstTime: 68 && WaitingTime: 82
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 15 && WaitingTime: 72
+
+
+Checking Process :2 burstTime= 0 && process :1 burstTime= 0
+And now we are in the IF block where Process :1 burstTime= 0
+
+Checking Process :3 burstTime= 82 && process :4 burstTime= 68
+And now we are in the LAST ELSE block where Process :4 burstTime= 68 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 102
+Process: 4 && BurstTime: 58 && WaitingTime: 82
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 15 && WaitingTime: 82
+
+
+Checking Process :4 burstTime= 58 && process :5 burstTime= 0
+And now we are in the IF block where Process :5 burstTime= 0
+
+Checking Process :4 burstTime= 58 && process :6 burstTime= 15
+And now we are in the LAST ELSE block where Process :6 burstTime= 15 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 112
+Process: 4 && BurstTime: 58 && WaitingTime: 92
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 5 && WaitingTime: 82
+
+
+Checking Process :6 burstTime= 5 && process :1 burstTime= 0
+And now we are in the IF block where Process :1 burstTime= 0
+
+Checking Process :6 burstTime= 5 && process :2 burstTime= 0
+And now we are in the IF block where Process :2 burstTime= 0
+
+Checking Process :6 burstTime= 5 && process :3 burstTime= 82
+And now we are in the ELSE IF block where Process :6 burstTime= 5 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 117
+Process: 4 && BurstTime: 58 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Checking Process :6 burstTime= 0 && process :4 burstTime= 58
+And now we are in the ELSE IF block where Process :6 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 117
+Process: 4 && BurstTime: 58 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Checking Process :6 burstTime= 0 && process :5 burstTime= 0
+And now we are in the IF block where Process :5 burstTime= 0
+
+Checking Process :1 burstTime= 0 && process :2 burstTime= 0
+And now we are in the IF block where Process :2 burstTime= 0
+
+Checking Process :1 burstTime= 0 && process :3 burstTime= 82
+And now we are in the ELSE IF block where Process :1 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 117
+Process: 4 && BurstTime: 58 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Checking Process :1 burstTime= 0 && process :4 burstTime= 58
+And now we are in the ELSE IF block where Process :1 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 117
+Process: 4 && BurstTime: 58 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Checking Process :1 burstTime= 0 && process :5 burstTime= 0
+And now we are in the IF block where Process :5 burstTime= 0
+
+Checking Process :1 burstTime= 0 && process :6 burstTime= 0
+And now we are in the IF block where Process :6 burstTime= 0
+
+Checking Process :2 burstTime= 0 && process :3 burstTime= 82
+And now we are in the ELSE IF block where Process :2 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 117
+Process: 4 && BurstTime: 58 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Checking Process :2 burstTime= 0 && process :4 burstTime= 58
+And now we are in the ELSE IF block where Process :2 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 117
+Process: 4 && BurstTime: 58 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Checking Process :2 burstTime= 0 && process :5 burstTime= 0
+And now we are in the IF block where Process :5 burstTime= 0
+
+Checking Process :2 burstTime= 0 && process :6 burstTime= 0
+And now we are in the IF block where Process :6 burstTime= 0
+
+Checking Process :2 burstTime= 0 && process :1 burstTime= 0
+And now we are in the IF block where Process :1 burstTime= 0
+
+Checking Process :3 burstTime= 82 && process :4 burstTime= 58
+And now we are in the LAST ELSE block where Process :4 burstTime= 58 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 127
+Process: 4 && BurstTime: 48 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Checking Process :4 burstTime= 48 && process :5 burstTime= 0
+And now we are in the IF block where Process :5 burstTime= 0
+
+Checking Process :4 burstTime= 48 && process :6 burstTime= 0
+And now we are in the IF block where Process :6 burstTime= 0
+
+Checking Process :4 burstTime= 48 && process :1 burstTime= 0
+And now we are in the IF block where Process :1 burstTime= 0
+
+Checking Process :4 burstTime= 48 && process :2 burstTime= 0
+And now we are in the IF block where Process :2 burstTime= 0
+
+Checking Process :4 burstTime= 48 && process :3 burstTime= 82
+And now we are in the ELSE IF block where Process :4 burstTime= 48 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 137
+Process: 4 && BurstTime: 38 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Checking Process :5 burstTime= 0 && process :6 burstTime= 0
+And now we are in the IF block where Process :6 burstTime= 0
+
+Checking Process :5 burstTime= 0 && process :1 burstTime= 0
+And now we are in the IF block where Process :1 burstTime= 0
+
+Checking Process :5 burstTime= 0 && process :2 burstTime= 0
+And now we are in the IF block where Process :2 burstTime= 0
+
+Checking Process :5 burstTime= 0 && process :3 burstTime= 82
+And now we are in the ELSE IF block where Process :5 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 137
+Process: 4 && BurstTime: 38 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Checking Process :5 burstTime= 0 && process :4 burstTime= 38
+And now we are in the ELSE IF block where Process :5 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 137
+Process: 4 && BurstTime: 38 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Checking Process :6 burstTime= 0 && process :1 burstTime= 0
+And now we are in the IF block where Process :1 burstTime= 0
+
+Checking Process :6 burstTime= 0 && process :2 burstTime= 0
+And now we are in the IF block where Process :2 burstTime= 0
+
+Checking Process :6 burstTime= 0 && process :3 burstTime= 82
+And now we are in the ELSE IF block where Process :6 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 137
+Process: 4 && BurstTime: 38 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Checking Process :6 burstTime= 0 && process :4 burstTime= 38
+And now we are in the ELSE IF block where Process :6 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 137
+Process: 4 && BurstTime: 38 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Checking Process :6 burstTime= 0 && process :5 burstTime= 0
+And now we are in the IF block where Process :5 burstTime= 0
+
+Checking Process :1 burstTime= 0 && process :2 burstTime= 0
+And now we are in the IF block where Process :2 burstTime= 0
+
+Checking Process :1 burstTime= 0 && process :3 burstTime= 82
+And now we are in the ELSE IF block where Process :1 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 137
+Process: 4 && BurstTime: 38 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Checking Process :1 burstTime= 0 && process :4 burstTime= 38
+And now we are in the ELSE IF block where Process :1 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 137
+Process: 4 && BurstTime: 38 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Checking Process :1 burstTime= 0 && process :5 burstTime= 0
+And now we are in the IF block where Process :5 burstTime= 0
+
+Checking Process :1 burstTime= 0 && process :6 burstTime= 0
+And now we are in the IF block where Process :6 burstTime= 0
+
+Checking Process :2 burstTime= 0 && process :3 burstTime= 82
+And now we are in the ELSE IF block where Process :2 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 137
+Process: 4 && BurstTime: 38 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Checking Process :2 burstTime= 0 && process :4 burstTime= 38
+And now we are in the ELSE IF block where Process :2 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 137
+Process: 4 && BurstTime: 38 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Checking Process :2 burstTime= 0 && process :5 burstTime= 0
+And now we are in the IF block where Process :5 burstTime= 0
+
+Checking Process :2 burstTime= 0 && process :6 burstTime= 0
+And now we are in the IF block where Process :6 burstTime= 0
+
+Checking Process :2 burstTime= 0 && process :1 burstTime= 0
+And now we are in the IF block where Process :1 burstTime= 0
+
+Checking Process :3 burstTime= 82 && process :4 burstTime= 38
+And now we are in the LAST ELSE block where Process :4 burstTime= 38 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 147
+Process: 4 && BurstTime: 28 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Checking Process :4 burstTime= 28 && process :5 burstTime= 0
+And now we are in the IF block where Process :5 burstTime= 0
+
+Checking Process :4 burstTime= 28 && process :6 burstTime= 0
+And now we are in the IF block where Process :6 burstTime= 0
+
+Checking Process :4 burstTime= 28 && process :1 burstTime= 0
+And now we are in the IF block where Process :1 burstTime= 0
+
+Checking Process :4 burstTime= 28 && process :2 burstTime= 0
+And now we are in the IF block where Process :2 burstTime= 0
+
+Checking Process :4 burstTime= 28 && process :3 burstTime= 82
+And now we are in the ELSE IF block where Process :4 burstTime= 28 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 157
+Process: 4 && BurstTime: 18 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Checking Process :5 burstTime= 0 && process :6 burstTime= 0
+And now we are in the IF block where Process :6 burstTime= 0
+
+Checking Process :5 burstTime= 0 && process :1 burstTime= 0
+And now we are in the IF block where Process :1 burstTime= 0
+
+Checking Process :5 burstTime= 0 && process :2 burstTime= 0
+And now we are in the IF block where Process :2 burstTime= 0
+
+Checking Process :5 burstTime= 0 && process :3 burstTime= 82
+And now we are in the ELSE IF block where Process :5 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 157
+Process: 4 && BurstTime: 18 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Checking Process :5 burstTime= 0 && process :4 burstTime= 18
+And now we are in the ELSE IF block where Process :5 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 157
+Process: 4 && BurstTime: 18 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Checking Process :6 burstTime= 0 && process :1 burstTime= 0
+And now we are in the IF block where Process :1 burstTime= 0
+
+Checking Process :6 burstTime= 0 && process :2 burstTime= 0
+And now we are in the IF block where Process :2 burstTime= 0
+
+Checking Process :6 burstTime= 0 && process :3 burstTime= 82
+And now we are in the ELSE IF block where Process :6 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 157
+Process: 4 && BurstTime: 18 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Checking Process :6 burstTime= 0 && process :4 burstTime= 18
+And now we are in the ELSE IF block where Process :6 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 157
+Process: 4 && BurstTime: 18 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Checking Process :6 burstTime= 0 && process :5 burstTime= 0
+And now we are in the IF block where Process :5 burstTime= 0
+
+Checking Process :1 burstTime= 0 && process :2 burstTime= 0
+And now we are in the IF block where Process :2 burstTime= 0
+
+Checking Process :1 burstTime= 0 && process :3 burstTime= 82
+And now we are in the ELSE IF block where Process :1 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 157
+Process: 4 && BurstTime: 18 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Checking Process :1 burstTime= 0 && process :4 burstTime= 18
+And now we are in the ELSE IF block where Process :1 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 157
+Process: 4 && BurstTime: 18 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Checking Process :1 burstTime= 0 && process :5 burstTime= 0
+And now we are in the IF block where Process :5 burstTime= 0
+
+Checking Process :1 burstTime= 0 && process :6 burstTime= 0
+And now we are in the IF block where Process :6 burstTime= 0
+
+Checking Process :2 burstTime= 0 && process :3 burstTime= 82
+And now we are in the ELSE IF block where Process :2 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 157
+Process: 4 && BurstTime: 18 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Checking Process :2 burstTime= 0 && process :4 burstTime= 18
+And now we are in the ELSE IF block where Process :2 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 157
+Process: 4 && BurstTime: 18 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Checking Process :2 burstTime= 0 && process :5 burstTime= 0
+And now we are in the IF block where Process :5 burstTime= 0
+
+Checking Process :2 burstTime= 0 && process :6 burstTime= 0
+And now we are in the IF block where Process :6 burstTime= 0
+
+Checking Process :2 burstTime= 0 && process :1 burstTime= 0
+And now we are in the IF block where Process :1 burstTime= 0
+
+Checking Process :3 burstTime= 82 && process :4 burstTime= 18
+And now we are in the LAST ELSE block where Process :4 burstTime= 18 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 167
+Process: 4 && BurstTime: 8 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Checking Process :4 burstTime= 8 && process :5 burstTime= 0
+And now we are in the IF block where Process :5 burstTime= 0
+
+Checking Process :4 burstTime= 8 && process :6 burstTime= 0
+And now we are in the IF block where Process :6 burstTime= 0
+
+Checking Process :4 burstTime= 8 && process :1 burstTime= 0
+And now we are in the IF block where Process :1 burstTime= 0
+
+Checking Process :4 burstTime= 8 && process :2 burstTime= 0
+And now we are in the IF block where Process :2 burstTime= 0
+
+Checking Process :4 burstTime= 8 && process :3 burstTime= 82
+And now we are in the ELSE IF block where Process :4 burstTime= 8 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 175
+Process: 4 && BurstTime: 0 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Checking Process :5 burstTime= 0 && process :6 burstTime= 0
+And now we are in the IF block where Process :6 burstTime= 0
+
+Checking Process :5 burstTime= 0 && process :1 burstTime= 0
+And now we are in the IF block where Process :1 burstTime= 0
+
+Checking Process :5 burstTime= 0 && process :2 burstTime= 0
+And now we are in the IF block where Process :2 burstTime= 0
+
+Checking Process :5 burstTime= 0 && process :3 burstTime= 82
+And now we are in the ELSE IF block where Process :5 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 175
+Process: 4 && BurstTime: 0 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Checking Process :5 burstTime= 0 && process :4 burstTime= 0
+And now we are in the IF block where Process :4 burstTime= 0
+
+Checking Process :6 burstTime= 0 && process :1 burstTime= 0
+And now we are in the IF block where Process :1 burstTime= 0
+
+Checking Process :6 burstTime= 0 && process :2 burstTime= 0
+And now we are in the IF block where Process :2 burstTime= 0
+
+Checking Process :6 burstTime= 0 && process :3 burstTime= 82
+And now we are in the ELSE IF block where Process :6 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 175
+Process: 4 && BurstTime: 0 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Checking Process :6 burstTime= 0 && process :4 burstTime= 0
+And now we are in the IF block where Process :4 burstTime= 0
+
+Checking Process :6 burstTime= 0 && process :5 burstTime= 0
+And now we are in the IF block where Process :5 burstTime= 0
+
+Checking Process :1 burstTime= 0 && process :2 burstTime= 0
+And now we are in the IF block where Process :2 burstTime= 0
+
+Checking Process :1 burstTime= 0 && process :3 burstTime= 82
+And now we are in the ELSE IF block where Process :1 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 175
+Process: 4 && BurstTime: 0 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Checking Process :1 burstTime= 0 && process :4 burstTime= 0
+And now we are in the IF block where Process :4 burstTime= 0
+
+Checking Process :1 burstTime= 0 && process :5 burstTime= 0
+And now we are in the IF block where Process :5 burstTime= 0
+
+Checking Process :1 burstTime= 0 && process :6 burstTime= 0
+And now we are in the IF block where Process :6 burstTime= 0
+
+Checking Process :2 burstTime= 0 && process :3 burstTime= 82
+And now we are in the ELSE IF block where Process :2 burstTime= 0 will work
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 82 && WaitingTime: 175
+Process: 4 && BurstTime: 0 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Checking Process :2 burstTime= 0 && process :4 burstTime= 0
+And now we are in the IF block where Process :4 burstTime= 0
+
+Checking Process :2 burstTime= 0 && process :5 burstTime= 0
+And now we are in the IF block where Process :5 burstTime= 0
+
+Checking Process :2 burstTime= 0 && process :6 burstTime= 0
+And now we are in the IF block where Process :6 burstTime= 0
+
+Checking Process :2 burstTime= 0 && process :1 burstTime= 0
+And now we are in the IF block where Process :1 burstTime= 0
+
+Checking Process :3 burstTime= 82 && process :4 burstTime= 0
+And now we are in the IF block where Process :4 burstTime= 0
+
+Checking Process :3 burstTime= 82 && process :5 burstTime= 0
+And now we are in the IF block where Process :5 burstTime= 0
+
+Checking Process :3 burstTime= 82 && process :6 burstTime= 0
+And now we are in the IF block where Process :6 burstTime= 0
+
+Checking Process :3 burstTime= 82 && process :1 burstTime= 0
+And now we are in the IF block where Process :1 burstTime= 0
+
+Checking Process :3 burstTime= 82 && process :2 burstTime= 0
+And now we are in the IF block where Process :2 burstTime= 0
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 72 && WaitingTime: 175
+Process: 4 && BurstTime: 0 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 62 && WaitingTime: 175
+Process: 4 && BurstTime: 0 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 52 && WaitingTime: 175
+Process: 4 && BurstTime: 0 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 42 && WaitingTime: 175
+Process: 4 && BurstTime: 0 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 32 && WaitingTime: 175
+Process: 4 && BurstTime: 0 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 22 && WaitingTime: 175
+Process: 4 && BurstTime: 0 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 12 && WaitingTime: 175
+Process: 4 && BurstTime: 0 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 2 && WaitingTime: 175
+Process: 4 && BurstTime: 0 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Process: 1 && BurstTime: 0 && WaitingTime: 0
+Process: 2 && BurstTime: 0 && WaitingTime: 25
+Process: 3 && BurstTime: 0 && WaitingTime: 175
+Process: 4 && BurstTime: 0 && WaitingTime: 97
+Process: 5 && BurstTime: 0 && WaitingTime: 62
+Process: 6 && BurstTime: 0 && WaitingTime: 82
+
+
+Checking Process :4 burstTime= 0 && process :5 burstTime= 0
+And now we are in the IF block where Process :5 burstTime= 0
+
+Checking Process :4 burstTime= 0 && process :6 burstTime= 0
+And now we are in the IF block where Process :6 burstTime= 0
+
+Checking Process :4 burstTime= 0 && process :1 burstTime= 0
+And now we are in the IF block where Process :1 burstTime= 0
+
+Checking Process :4 burstTime= 0 && process :2 burstTime= 0
+And now we are in the IF block where Process :2 burstTime= 0
+
+Checking Process :4 burstTime= 0 && process :3 burstTime= 0
+And now we are in the IF block where Process :3 burstTime= 0
+
+Checking Process :5 burstTime= 0 && process :6 burstTime= 0
+And now we are in the IF block where Process :6 burstTime= 0
+
+Checking Process :5 burstTime= 0 && process :1 burstTime= 0
+And now we are in the IF block where Process :1 burstTime= 0
+
+Checking Process :5 burstTime= 0 && process :2 burstTime= 0
+And now we are in the IF block where Process :2 burstTime= 0
+
+Checking Process :5 burstTime= 0 && process :3 burstTime= 0
+And now we are in the IF block where Process :3 burstTime= 0
+
+Checking Process :5 burstTime= 0 && process :4 burstTime= 0
+And now we are in the IF block where Process :4 burstTime= 0
+
+Checking Process :6 burstTime= 0 && process :1 burstTime= 0
+And now we are in the IF block where Process :1 burstTime= 0
+
+Checking Process :6 burstTime= 0 && process :2 burstTime= 0
+And now we are in the IF block where Process :2 burstTime= 0
+
+Checking Process :6 burstTime= 0 && process :3 burstTime= 0
+And now we are in the IF block where Process :3 burstTime= 0
+
+Checking Process :6 burstTime= 0 && process :4 burstTime= 0
+And now we are in the IF block where Process :4 burstTime= 0
+
+Checking Process :6 burstTime= 0 && process :5 burstTime= 0
+And now we are in the IF block where Process :5 burstTime= 0
+
+
+Processes	Burst Time	Waiting Time	Turn Around Time
+
+process1	25		0		25
+
+process2	27		25		52
+
+process3	82		175		257
+
+process4	78		97		175
+
+process5	10		62		72
+
+process6	35		82		117
+
+
+
+The Total Waiting Time : 	441
+
+The Average Waiting Time : 	73.5
